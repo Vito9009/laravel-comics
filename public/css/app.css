@@ -213,7 +213,7 @@ header .my_navbar-container li a:hover {
 }
 
 .my_main-container .jumbo {
-  background-image: url(./partials/asset("images/jumbotron.jpg"));
+  background-image: asset("images/jumbotron.jpg");
   background-size: cover;
   height: 600px;
   width: 100%;

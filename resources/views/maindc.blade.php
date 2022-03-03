@@ -3,7 +3,7 @@
 @section('content')
 <div>
     <div class="my_main-container">
-      <div class="jumbo">
+      <div class="jumbo" style="background-image: url('{{ asset('images/jumbotron.jpg')}}');">
   
       </div>
   
