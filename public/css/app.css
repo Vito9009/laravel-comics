@@ -50,12 +50,12 @@ header .my_navbar-container li a {
 
 header .my_navbar-container li a.active,
 header .my_navbar-container li a:hover {
-  border-bottom: 3px solid blue;
-  color: blue;
+  border-bottom: 3px solid #0282f9;
+  color: #0282f9;
 }
 
 .my_top-footer-container {
-  background-color: blue;
+  background-color: #0282f9;
   height: 150px;
   width: 100%;
   display: flex;
@@ -66,7 +66,6 @@ header .my_navbar-container li a:hover {
 .my_middle-footer-container {
   height: 300px;
   width: 100%;
-  background-image: url(./partials/asset("images/buy-comics-digital-comics.png"));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,11 +93,15 @@ header .my_navbar-container li a:hover {
 
 .buy-comics-container .service-container {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
 }
 
 .buy-comics-container .service-container img {
-  height: 60px;
-  margin-bottom: 10px;
+  width: 40px;
+  margin-right: 10px;
 }
 
 .middle-footer-components-container {
@@ -145,7 +148,7 @@ header .my_navbar-container li a:hover {
 .middle-footer-components-container .img-dc-container img {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -165,7 +168,7 @@ header .my_navbar-container li a:hover {
 
 .bottom-footer-content-container .btn-footer-container .footer-btn,
 .bottom-footer-content-container .social-container .footer-btn {
-  border: 2px solid blue;
+  border: 2px solid #0282f9;
   background-color: rgba(0, 0, 0, 0);
   color: white;
   text-transform: uppercase;
@@ -175,23 +178,24 @@ header .my_navbar-container li a:hover {
 }
 
 .bottom-footer-content-container .social-container {
-  color: blue;
+  color: #0282f9;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .bottom-footer-content-container .social-container .follow-text {
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 .bottom-footer-content-container .social-container .social-icons-container {
-  width: 50px;
+  width: 150px;
   display: flex;
   justify-content: space-around;
 }
 
 .bottom-footer-content-container .social-container .social-icons-container img {
   width: 30px;
+  margin: 0 3px;
   cursor: pointer;
 }
 
@@ -213,7 +217,6 @@ header .my_navbar-container li a:hover {
 }
 
 .my_main-container .jumbo {
-  background-image: asset("images/jumbotron.jpg");
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -242,7 +245,7 @@ header .my_navbar-container li a:hover {
 
 .bottom-btn,
 .top-btn {
-  background-color: blue;
+  background-color: #0282f9;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
