@@ -1,0 +1,142 @@
+.my_top-footer-container{
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.my_middle-footer-container{
+    height: 300px;
+    width: 100%;
+    background-image: url(asset('images/buy-comics-digital-comics.png'));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .my_bottomfooter-container{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+  }
+  
+  .buy-comics-container{
+    width: 60%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    .service-container{
+      cursor: pointer;
+
+      img{
+          height: 60px;
+          margin-bottom: 10px;
+      }          
+
+    }
+}
+
+.middle-footer-components-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+
+    .info-links-container{
+        width: 40%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .section-link{
+            height: 100%;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            margin: 10px;
+
+            h4{
+                font-size: 12px;
+            }
+
+
+            
+            li{
+                list-style: none;
+                color: rgba(117, 149, 117, 0.8);
+                font-size: 9px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .img-dc-container{
+        width: 40%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+    }
+}
+
+.bottom-footer-content-container{
+    height: 100%;
+    display: flex;
+  
+      .btn-footer-container, .social-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .footer-btn{
+          border: 2px solid blue;
+          background-color: rgba(0, 0, 0, 0);
+          color: rgb(255, 255, 255);
+          text-transform: uppercase;
+          font-weight: bold;
+          padding: 10px;
+          cursor: pointer;
+        }
+      }
+  
+      .social-container {
+        color: blue;
+        text-transform: uppercase;
+        font-weight: bold;
+  
+        .follow-text{
+          margin-right: 30px;
+        }
+  
+  
+        .social-icons-container{
+          width: 50px;
+          display: flex;
+          justify-content: space-around;
+  
+          img{
+            width: 30px;
+            cursor: pointer;
+          }
+        }
+      }
+  }

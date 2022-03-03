@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+header .navbar-icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navbar-icon img {
+  width: 100px;
+}
+
+header .my_navbar-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0;
+}
+
+header .my_navbar-container li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+header .my_navbar-container li a {
+  text-decoration: none;
+  height: 150px;
+  color: black;
+  line-height: 150px;
+}
+
+header .my_navbar-container li a.active,
+header .my_navbar-container li a:hover {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+
+.my_top-footer-container {
+  background-color: blue;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_middle-footer-container {
+  height: 300px;
+  width: 100%;
+  background-image: url(./partials/asset("images/buy-comics-digital-comics.png"));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.my_bottomfooter-container {
+  height: 100px;
+  width: 100%;
+  background-color: #303030;
+}
+
+.buy-comics-container {
+  width: 60%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.buy-comics-container .service-container {
+  cursor: pointer;
+}
+
+.buy-comics-container .service-container img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.middle-footer-components-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.middle-footer-components-container .info-links-container {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-footer-components-container .info-links-container .section-link {
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.middle-footer-components-container .info-links-container .section-link h4 {
+  font-size: 12px;
+}
+
+.middle-footer-components-container .info-links-container .section-link li {
+  list-style: none;
+  color: rgba(117, 149, 117, 0.8);
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.middle-footer-components-container .img-dc-container {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-footer-components-container .img-dc-container img {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.bottom-footer-content-container {
+  height: 100%;
+  display: flex;
+}
+
+.bottom-footer-content-container .btn-footer-container,
+.bottom-footer-content-container .social-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-footer-content-container .btn-footer-container .footer-btn,
+.bottom-footer-content-container .social-container .footer-btn {
+  border: 2px solid blue;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bottom-footer-content-container .social-container {
+  color: blue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bottom-footer-content-container .social-container .follow-text {
+  margin-right: 30px;
+}
+
+.bottom-footer-content-container .social-container .social-icons-container {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-footer-content-container .social-container .social-icons-container img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.my_main-container {
+  width: 100%;
+  background-color: #1c1c1c;
+}
+
+.my_main-container .main-showcase {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.my_main-container .main-showcase .showcase-content {
+  width: 65%;
+}
+
+.my_main-container .jumbo {
+  background-image: url(./partials/asset("images/jumbotron.jpg"));
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.my_main-container .top-btn {
+  position: absolute;
+  left: 15%;
+  top: 730px;
+  padding: 10px 15px;
+}
+
+.bottom-btn-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-btn-container .bottom-btn {
+  margin-bottom: 50px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.bottom-btn,
+.top-btn {
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+}
+
+.preview-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.my_thumb {
+  width: calc(16.6666666667% - 10px);
+  margin: 20px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.my_thumb .img-thumb-container {
+  max-height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.my_thumb .img-thumb-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.my_thumb h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+

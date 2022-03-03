@@ -1,0 +1,87 @@
+.my_main-container{
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+
+
+    .main-showcase{
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+
+      .showcase-content{
+        width: 65%;
+      }
+    }
+
+    .jumbo{
+      background-image: url(asset('images/jumbotron.jpg'));
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+    }
+
+    .top-btn{
+      position: absolute;
+      left: 15%;
+      top: 730px;
+      padding: 10px 15px;
+    }
+}
+
+.bottom-btn-container{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bottom-btn{
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    cursor: pointer;
+
+  }
+}
+
+.bottom-btn, .top-btn{
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+}
+
+.preview-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;  
+}
+
+.my_thumb{
+    width: calc((100% / 6) - 10px);
+    margin: 20px 5px;
+    text-align: center;
+    cursor: pointer;
+
+    
+    .img-thumb-container{
+        max-height: 200px;
+        overflow: hidden;
+        margin-bottom: 10px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    h4{
+        text-transform: uppercase;
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+}
+
